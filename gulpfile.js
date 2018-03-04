@@ -19,18 +19,6 @@ gulp.task('vendor', function () {
   ])
     .pipe(gulp.dest('./vendor/bootstrap'))
 
-  // devicon css
-  gulp.src([
-    './node_modules/devicon/*.css'
-  ])
-    .pipe(gulp.dest('./vendor/devicon'))
-
-  // devicon fonts
-  gulp.src([
-    './node_modules/devicon/fonts/**/*'
-  ])
-    .pipe(gulp.dest('./vendor/devicon/fonts'))
-
   // Font Awesome
   gulp.src([
     './node_modules/font-awesome/**/*',
